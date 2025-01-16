@@ -1,0 +1,17 @@
+/* swag.css adds the swag to my minimal website - Courtney Hammond */
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex: 1 1 auto;
+}
+
+.menu-container a {
+    font-size: 28px;
+    flex-wrap: nowrap;
+}
+
+.menu-container img {
+    height: 10em;
+}
