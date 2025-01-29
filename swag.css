@@ -1,17 +1,69 @@
 /* swag.css adds the swag to my minimal website - Courtney Hammond */
 
-.menu-container{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+html {
     display: flex;
     justify-content: center;
-    gap: 5em;
-    flex: 1 1 auto;
+    height: 100%;
+    
 }
 
-.menu-container a {
-    font-size: 28px;
-    flex-wrap: nowrap;
+body {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 90%;
 }
 
-.menu-container img {
-    height: 10em;
+header {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-height: 10vh;
+}
+
+#home-scene{
+    display: flex;
+    max-height: 40vh;
+}
+
+menu {
+    display: flex;
+    max-height: 30vh;
+    width: auto;
+    border: 5px solid black; 
+}
+
+menu a {
+    max-height: 100%;
+    width: auto;
+    margin: 4%;
+}
+
+menu a img {
+    max-height: 100%;
+    width: auto;
+    
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    max-height: 10vh;
+}
+
+header, menu, footer {
 }
