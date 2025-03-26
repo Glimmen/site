@@ -1,29 +1,41 @@
 <!-- index.html is the Home Page of my minimal website - Courtney Hammond -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="swag.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin|Akaya+Kanadaka">
-        <meta charset="utf-8">
-        <title>Hammond's House</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammond's House</title>
+    <link rel="stylesheet" href="swag.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin|Akaya+Kanadaka">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
+<body>
+    <div class="container">
+        <div class="title">
             <h1>Hammond's House</h1>
-        </header>
+        </div>
 
         <div id="home-scene">
-            <img src="assets/home-scene.png"/>
+            <img src="assets/home-scene.png" alt="Home Scene">
         </div>
-        
-        <menu>
-            <a href="bio.html"><img src="assets/bio-icon.png" onmouseover="this.src='assets/bio-hover.png'" onmouseout="this.src='assets/bio-icon.png'"/></a>
-            <a href="links.html"><img src="assets/links-icon.png" onmouseover="this.src='assets/links-hover.png'" onmouseout="this.src='assets/links-icon.png'"/></a>
-        </menu>
+
+        <div class="menu">
+            <a href="bio.html">
+                <img src="assets/bio-icon.png" alt="Bio Icon" 
+                     onmouseover="this.src='assets/bio-hover.png'" 
+                     onmouseout="this.src='assets/bio-icon.png'">
+            </a>
+            <a href="links.html">
+                <img src="assets/links-icon.png" alt="Links Icon" 
+                     onmouseover="this.src='assets/links-hover.png'" 
+                     onmouseout="this.src='assets/links-icon.png'">
+            </a>
+        </div>
 
         <footer>
             <a href="mailto:hamm0235@algonquinlive.com"><h3>Get in touch!</h3></a>
         </footer>
-    </body>
+    </div>
+</body>
 </html>
